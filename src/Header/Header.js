@@ -50,10 +50,8 @@ function Header() {
 
                 {/* fourth link */}
                 <Link to="/checkout" className="header__link">
-                    <div className="header__optionBasket">
-                        {/* Shopping basket icon */}
-                        <ShoppingBasketIcon />
-                        {/* Number of items in the basket */ }
+                    <div className="header__optionBasket">               
+                        <ShoppingBasketIcon />     
                         <span className="header__optionLineTwo header__basketCount">0</span>
 
                     </div>
